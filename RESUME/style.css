@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #eee;
+}
+
+.container{
+    width: 70%;
+    gap: 10px;
+    display:flex;
+    margin-inline: auto;
+
+}
+
+p{
+    font-size: 0.8rem;
+    color: #888;
+}
+
+h2{
+    font-weight: normal;
+    color: #888;
+}
+
+h3{
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 4px 4px 4px  #ccc;
+}
+
+.left-column{
+    width: 30%;
+    
+}
+
+.right-column{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image-box img { 
+    width: 100%;
+}
+.username{
+    color: rgb(241, 241, 246);
+}
+
+.image-box .username{
+    position: absolute;
+    bottom:2px;
+    left:2px;
+
+}
+
+.image-box {
+    position:relative;
+}
+
+.cont-inf ul, .skills ul , .Language ul{
+    list-style: none;
+}
+
+.icon-text{
+    display:flex;
+    gap: 10px;
+}
+
+i{
+    color: teal;
+}
+
+.progress-bar{
+background-color: #ccc;
+border-radius: 20px;
+margin-block: 8px;
+}
+
+.progress-bar .progress{
+    background-color: teal;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 0.5rem;
+    padding-block: 2px;
+}
+
+.subtext{
+    color: #212121;
+}
+
+.left-desk , .card-container{
+    margin-inline: 20px;
+}
+
+ul{
+    margin-block: 10px;
+    list-style: none;
+}
+
+ul>li{
+    margin-top: 8px;
+}
+
+.skills{
+    margin-block: 10px;
+}
+
+.languages{
+margin-block: 10px;
+}
+
+.icon-text{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.badge{
+    background-color: teal;
+    color: black;
+    padding: 2px 4px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+}
+
+.icon-text p{
+    color: teal;
+}
+
+
+
